@@ -127,8 +127,8 @@ end
 
 -- script here
 
-local library = loadstring(request({Url = stringUrl .. "build_a_boat/library"})[stringBody])()
-local listing = loadstring(request({Url = stringUrl .. "build_a_boat/listing"})[stringBody])()
+local library = loadstring(request({Url = https://raw.githubusercontent.com/Imaguy0/baft/main/Server/library.lua})[stringBody])()
+local listing = loadstring(request({Url = https://raw.githubusercontent.com/Imaguy0/baft/main/Server/listing.lua})[stringBody])()
 
 -- Variables
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
